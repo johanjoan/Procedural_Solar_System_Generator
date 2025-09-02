@@ -177,16 +177,16 @@ protected:
 		meta = (DisplayName = "Maximum Percentage of Water Heigh"))
 	float maxPercHeight = 0.9;
 
-	UPROPERTY(EditAnywhere, Category = "Level Of Detail", meta = (DisplayName = "Latitude Number of Divisons"))
+	UPROPERTY(EditAnywhere, Category = "Levels Of Detail", meta = (DisplayName = "Latitude Number of Divisons"))
 	int NumSectionsLat = 6;
 
-	UPROPERTY(EditAnywhere, Category = "Level Of Detail", meta = (DisplayName = "Longitude Number of Divisons"))
+	UPROPERTY(EditAnywhere, Category = "Levels Of Detail", meta = (DisplayName = "Longitude Number of Divisons"))
 	int NumSectionsLon = 6;
 
-	UPROPERTY(EditAnywhere, Category = "Level Of Detail", meta = (DisplayName = "Number of Vertices per Longitude and Latitude"))
+	UPROPERTY(EditAnywhere, Category = "Levels Of Detail", meta = (DisplayName = "Number of Vertices per Longitude and Latitude"))
 	TArray<int> NumPointsPerLOD = {3, 6, 100}; 
 
-	UPROPERTY(EditAnywhere, Category = "Level Of Detail", meta = (DisplayName = "Distances for Each Level of Detail"))
+	UPROPERTY(EditAnywhere, Category = "Levels Of Detail", meta = (DisplayName = "Distances for Each Level of Detail"))
 	TArray<int> DistancesLOD = { 800000, 250000, 0 };
 
 public:	
