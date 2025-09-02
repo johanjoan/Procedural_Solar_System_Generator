@@ -46,6 +46,15 @@ void AMyActorSolarSystemGenerator::BeginPlay()
 		}
 	}
 
+    //Create SpeedManager
+    ASpeedManager* SpeedManager = GetWorld()->SpawnActor<ASpeedManager>(
+        ASpeedManager::StaticClass(),
+        FVector(0.f, 0.f, 0.f),
+        FRotator::ZeroRotator,
+        SpawnParams
+    );
+
+
     //Initialize LOD Manager
     LODManager->Initialize(&CelestialBodies, &DistancesLOD);
 }
@@ -263,9 +272,7 @@ float AMyActorSolarSystemGenerator::CalcTemperature(FVector Position)
 
 
 
-//TODO: NOM TEXTURA!
 UMaterialInstanceDynamic* AMyActorSolarSystemGenerator::CalculatePlanetMaterial(float TemPlanet) {
-    UMaterialInterface* BaseMaterial = LoadObject<UMaterialInterface>(nullptr, TEXT("/Script/Engine.Material'/Game/Blueprints/Planets_Material.Planets_Material'"));
     UMaterialInstanceDynamic* DynMat = UMaterialInstanceDynamic::Create(BaseMaterial, this);
 
     int32 nText = PlanetsMaterials.Num();

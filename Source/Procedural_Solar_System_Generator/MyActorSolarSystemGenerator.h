@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include <random>
 #include "LODManager.h"
+#include "SpeedManager.h"
 #include "CelestialBody.h"
 #include "Planet.h"
 #include "Star.h"
@@ -214,5 +215,6 @@ private:
 	float CalcTemperature(FVector Position);
 
 	UMaterialInstanceDynamic* CalculatePlanetMaterial(float TemPlanet);
-
+	UPROPERTY(EditAnywhere, Category = "Planets Properties")
+	UMaterialInterface* BaseMaterial;
 };
