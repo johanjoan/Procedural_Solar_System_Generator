@@ -35,7 +35,7 @@ The main classes include:
 
 ## 🎮 Demo
 
-A playable demo featuring a solar system with 8 procedurally generated planets is available by downloading [Demo.zip](https://github.com/johanjoan/Procedural_Solar_System_Generator/Demo.zip?raw=true) and executing `Procedural_Solar_System_Generator.exe`.
+A playable demo featuring a solar system with 8 procedurally generated planets is available by downloading [Demo.zip]([https://github.com/johanjoan/Procedural_Solar_System_Generator/Demo.zip](https://github.com/johanjoan/Procedural_Solar_System_Generator/blob/master/Demo.zip)?raw=true) and executing `Procedural_Solar_System_Generator.exe`.
 
 ### Controls
 
