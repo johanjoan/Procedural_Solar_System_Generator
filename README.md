@@ -10,6 +10,8 @@ The system is **fully customizable** from the Unreal Engine editor, allowing you
 - Orbital distances
 - Planet decorations  
 
+A more detailed explanation about the customizable parameters can be found here: https://johanjoan.gitlab.io/solar_system_generator/
+
 ---
 
 ## 🧩 Source Code Classes
