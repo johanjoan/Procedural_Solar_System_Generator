@@ -75,6 +75,7 @@ A playable demo featuring a solar system with 8 procedurally generated planets i
   <img src="Images/Image_6.png" alt="Close-up Planet" width="600"/>
 </p>
 
+---
 
 ## 🚀 Future Improvements
 
