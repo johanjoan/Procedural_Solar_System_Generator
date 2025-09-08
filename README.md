@@ -21,7 +21,7 @@ The main classes include:
 
 | Class | Description |
 |-------|-------------|
-| `MyActorSolarSystemGenerator` | Controls the generation and organization of the entire solar system. |
+| `MyActorSolarSystemGenerator` | Controls the generation and organization of the entire solar system. That is the actor that you must add to the scene to generate the Solar System. |
 | `Planet` | Represents a planet. Inherits from `CelestialBody`. |
 | `Star` | Represents the solar system's star. Inherits from `CelestialBody`. |
 | `CelestialBody` | Parent class of `Planet` and `Star`, which manages common properties of both classes. |
